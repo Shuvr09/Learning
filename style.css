@@ -1,11 +1,19 @@
 body{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
+    margin: 0;
+}
+.Name{
+    color: rgb(238, 106, 12);
+    font-size: 18px;
 }
 h1{
     font-size: 50px;
 }
-.name-highlight{
+p{
+    font-size: 20px;
+}
+.highlight{
     color: orange;
 }
 .half-width{
@@ -16,4 +24,65 @@ h1{
 }
 .half-width img{
     width : 100%;
+}
+.top-banner{
+    background-image: url("Images/Templet/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 25px;
+}
+.link-button-top{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon , tomato);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.link-button-middle{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(70, 55, 233) , rgb(239, 101, 124));
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.Key-Word{
+    color: rgb(174, 8, 203);
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url(Images/Templet/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-part{
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 3px;
+    height: 60%;
+    background-color: white;
+}
+.Last-Part{
+    background-image: url(Images/Templet/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#pro{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,red,orange);
+    border-image-slice: 1;
+}
+#noob{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
